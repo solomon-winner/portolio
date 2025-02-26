@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiChevronRight, FiAward, FiCode, FiDatabase, FiGlobe} from 'react-icons/fi';
+import {FiMail, FiCode} from 'react-icons/fi';
 import profilePhoto from '../assets/E.jpg';
 import { useRef } from 'react';
 
