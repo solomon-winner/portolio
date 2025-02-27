@@ -6,7 +6,8 @@ export const Projects = () => {
     return(
         <section className="py-24 px-6 relative">
         <div className="container mx-auto">
-          <h2 id = "Projects" className="text-4xl font-bold mb-16">Architected Solutions</h2>
+          <h2 id = "Projects" className="text-4xl font-mono mb-16">
+          <span className="text-teal-600 hover:text-teal-500">//</span> Projects</h2>
           <div className="space-y-24">
             {projects.map((project, index) => (
               <motion.div 
@@ -21,8 +22,8 @@ export const Projects = () => {
                 </div>
                 <div className={`order-${index % 2 === 0 ? '2' : '1'}`}>
                   <div className="text-blue-400 mb-4">{project.role}</div>
-                  <h3 className="text-3xl font-bold mb-6">{project.title}</h3>
-                  <div className="text-xl text-gray-400 mb-8">{project.impact}</div>
+                  <h3 className="text-3xl font-mono mb-6">{project.title}</h3>
+                  <div className="text-[1rem] text-gray-400 mb-8 font-thin">{project.description}</div>
                   <div className="flex flex-wrap gap-3 mb-8">
                     {project.stack.map((tech) => (
                       <span 
@@ -33,12 +34,18 @@ export const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  <a 
+                  {project?.link?<a 
                     href={project.link} 
                     className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300"
                   >
-                    Explore Case Study <FiChevronRight />
-                  </a>
+                    Live Demo <FiChevronRight />
+                  </a>: null }
+                 { project?.github?<a 
+                    href={project.link} 
+                    className="ml-5 inline-flex items-center gap-2 text-cyan-500 hover:text-blue-300"
+                  >
+                    Github Code <FiChevronRight />
+                  </a>: null}
                 </div>
               </motion.div>
             ))}

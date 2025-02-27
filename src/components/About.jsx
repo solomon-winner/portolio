@@ -13,10 +13,10 @@ export const About = () => {
             viewport={{ once: true, margin: "-100px" }}
             className="space-y-8"
           >
-            <h2 className="text-4xl font-bold">
-              <span className="text-blue-400">//</span> About the Developer
+            <h2 className="text-4xl font-mono">
+              <span className="text-teal-600 hover:text-teal-500">//</span> About the Developer
             </h2>
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-[1rem] font-thin text-gray-300 leading-relaxed">
             I'm a full-stack software developer with a passion for building scalable and efficient web and mobile applications. With expertise in MERN, and Flutter, I have developed diverse projects.
 
 Currently, I work at Echnoserve Consulting, where I contribute to high-impact projects, including a tree-based restoration registry for the Ethiopian Prime Minister's Office and a European Union deforestation registry. Beyond my professional role, I enjoy tackling coding challenges, and continuously improving my skills.
@@ -26,13 +26,13 @@ I thrive in problem-solving, creating intuitive user experiences, and delivering
             <div className="grid grid-cols-2 gap-6">
               <div className="p-6 bg-gray-700/30 rounded-xl">
                 <FiAward className="text-3xl text-blue-400 mb-4" />
-                <div className="text-2xl font-bold mb-2">15+</div>
-                <div className="text-gray-400">Industry Awards</div>
+                <div className="text-2xl font-bold mb-2">2K+</div>
+                <div className="text-gray-400">Github Commits</div>
               </div>
               <div className="p-6 bg-gray-700/30 rounded-xl">
                 <FiCode className="text-3xl text-purple-400 mb-4" />
-                <div className="text-2xl font-bold mb-2">300k+</div>
-                <div className="text-gray-400">Lines Contributed</div>
+                <div className="text-2xl font-bold mb-2">40+</div>
+                <div className="text-gray-400">Repositeries</div>
               </div>
             </div>
           </motion.div>
