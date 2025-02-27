@@ -1,0 +1,61 @@
+
+@keyframes glitch {
+    0% {
+        clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
+        transform: translate(0);
+    }
+    5% {
+        clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
+        transform: translate(-2px);
+    }
+    30% {
+        clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
+        transform: translate(2px);
+    }
+    32% {
+        clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
+        transform: translate(2px);
+    }
+    35% {
+        clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
+        transform: translate(-2px);
+    }
+    36% {
+        clip-path: polygon(0 50%, 100% 50%, 100% 20%, 0 20%);
+        transform: translate(0);
+    }
+    100% {
+        clip-path: polygon(0 50%, 100% 50%, 100% 20%, 0 20%);
+    }
+}
+
+.glitch-overlay {
+    background: linear-gradient(
+        45deg,
+        transparent 48%,
+        rgba(236,72,153,0.2) 50%,
+        transparent 52%
+    );
+    animation: glitch 4s infinite;
+}
+
+.scanlines {
+    background-image: repeating-linear-gradient(
+        0deg,
+        transparent 0px,
+        transparent 1px,
+        rgba(0,0,0,0.2) 2px,
+        rgba(0,0,0,0.2) 3px
+    );
+}
+
+.animate-gradient {
+    background-size: 300% 300%;
+    animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}

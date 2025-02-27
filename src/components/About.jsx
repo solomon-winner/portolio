@@ -17,10 +17,11 @@ export const About = () => {
               <span className="text-blue-400">//</span> About the Developer
             </h2>
             <p className="text-xl text-gray-300 leading-relaxed">
-              With a decade of experience in full-stack development, I bridge 
-              the gap between technical excellence and business value. My work 
-              focuses on creating scalable solutions that drive measurable 
-              results while maintaining elegant code architecture.
+            I'm a full-stack software developer with a passion for building scalable and efficient web and mobile applications. With expertise in MERN, and Flutter, I have developed diverse projects.
+
+Currently, I work at Echnoserve Consulting, where I contribute to high-impact projects, including a tree-based restoration registry for the Ethiopian Prime Minister's Office and a European Union deforestation registry. Beyond my professional role, I enjoy tackling coding challenges, and continuously improving my skills.
+
+I thrive in problem-solving, creating intuitive user experiences, and delivering high-quality software. Always eager to learn, innovate, and take on new challenges.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="p-6 bg-gray-700/30 rounded-xl">

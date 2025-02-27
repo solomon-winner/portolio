@@ -1,5 +1,5 @@
 import { About } from "../components/About";
-import { Hero } from "../components/Hero";
+import { Hero } from "../components/Hero.jsx";
 import { Metrics } from "../components/Metrics";
 import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
