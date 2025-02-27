@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 👋 Hi, I'm Solomon!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Full Stack Developer | Problem Solver | Tech Enthusiast**
 
-## Available Scripts
+I specialize in building **scalable web applications** and **mobile solutions** using modern technologies. Passionate about solving real-world problems through software, I focus on delivering **high-quality, efficient, and secure** applications.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Skills & Technologies  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend  
+- **React.js, Next.js, TypeScript**  
+- **Tailwind CSS, Ant Design, Material UI**  
+- **Redux (Saga & Toolkit), Recoil, React Query**  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend  
+- **Node.js, Express.js, PHP (Laravel), Spring Boot**  
+- **MongoDB, MySQL, PostgreSQL**  
+- **RESTful APIs, GraphQL, WebSockets**  
+- **Authentication (JWT, OAuth2, RBAC)**  
 
-### `npm test`
+### Mobile Development  
+- **Flutter (Dart) for cross-platform mobile apps**  
+- **Native Android (Kotlin) & iOS (Swift)**  
+- **Firebase, Push Notifications, Payment Integrations**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### DevOps & Cloud  
+- **Docker, Kubernetes, CI/CD Pipelines**  
+- **AWS (EC2, S3, RDS, Lambda), Firebase, Vercel**  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 Notable Projects  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🌱 [Tree-Based Restoration Registry](#)  
+**Tech Stack:** React, ArcGIS, Laravel, MySQL  
+**What it does:** Manages deforested area data, tree growth tracking, and local community impact reports.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎵 [Gospel Song Management System](#)  
+**Tech Stack:** React, TypeScript, Node.js, MongoDB  
+**What it does:** Organizes song information, manages albums, and provides search/filtering features.  
 
-### `npm run eject`
+### 📖 [Brana – Bookstore App](#)  
+**Tech Stack:** Flutter, Node.js, MongoDB  
+**What it does:** Allows users to browse and order books with a delivery service.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📢 [Social Media Management Platform](#)  
+**Tech Stack:** React, Node.js, MongoDB  
+**What it does:** Enables users to schedule and post content across multiple social media platforms.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📊 GitHub Stats  
+![Solomon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=solomon-winner&show_icons=true&theme=radical)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📫 Get in Touch  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
+🔗 **Portfolio:** [your-portfolio.com](https://your-portfolio.com)  
+🐦 **Twitter:** [@your_handle](https://twitter.com/your_handle)  
+💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### ⭐ Let's Build Something Great!  
+I'm always open to **exciting projects, collaborations, and discussions.** If you're looking for a **dedicated and skilled** developer, let's connect!
