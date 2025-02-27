@@ -1,14 +1,7 @@
 import { motion } from 'framer-motion';
-
+import {metrics} from '../assets/Metrics';
 
 export const Metrics = () => {
-
-    const metrics = [
-        { value: '10+', label: 'Years Experience' },
-        { value: '98%', label: 'Client Retention' },
-        { value: '250k', label: 'Lines Contributed' },
-        { value: '4.8/5', label: 'Peer Rating' },
-      ];
 
 return(
     <section className="py-24 px-6 bg-gray-800/50 backdrop-blur-lg">
