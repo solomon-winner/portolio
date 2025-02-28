@@ -58,7 +58,7 @@ I specialize in building **scalable web applications** and **mobile solutions** 
 ## 📫 Get in Touch  
 
 📧 **Email:** mailto:solomonyalew664@gmail.com  
-🔗 **Portfolio:**  
+🔗 **Portfolio:**  https://solomonyalew-fawn.vercel.app/
 💼 **LinkedIn:** www.linkedin.com/in/solomon-yalew-86b03a257 
 
 ---
