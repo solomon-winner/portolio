@@ -59,7 +59,6 @@ I specialize in building **scalable web applications** and **mobile solutions** 
 
 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
 🔗 **Portfolio:** [your-portfolio.com](https://your-portfolio.com)  
-🐦 **Twitter:** [@your_handle](https://twitter.com/your_handle)  
 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
 
 ---
