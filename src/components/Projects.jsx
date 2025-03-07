@@ -18,7 +18,16 @@ export const Projects = () => {
                 className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
               >
                 <div className={`order-${index % 2 === 0 ? '1' : '2'}`}>
-                  <div className="bg-gray-700 h-96 rounded-2xl shadow-2xl"></div>
+                <div 
+                  className="bg-gray-700 h-[15rem] rounded-2xl shadow-2xl bg-cover bg-center"
+                  style={{ backgroundImage: project.img ? `url(${project?.img})` : 'none' }}
+                >
+                  {!project.img && (
+                    <div className="w-full h-full flex items-center justify-center text-gray-400">
+                      Image coming soon
+                    </div>
+                  )}
+                </div>
                 </div>
                 <div className={`order-${index % 2 === 0 ? '2' : '1'}`}>
                   <div className="text-blue-400 mb-4">{project.role}</div>
@@ -41,10 +50,17 @@ export const Projects = () => {
                     Live Demo <FiChevronRight />
                   </a>: null }
                  { project?.github?<a 
-                    href={project.link} 
+                    href={project.github} 
                     className="ml-5 inline-flex items-center gap-2 text-cyan-500 hover:text-blue-300"
                   >
                     Github Code <FiChevronRight />
+                  </a>: null}
+
+                  { project?.api?<a 
+                    href={project.api} 
+                    className="ml-5 inline-flex items-center gap-2 text-cyan-500 hover:text-blue-300"
+                  >
+                   Github Code of API<FiChevronRight />
                   </a>: null}
                 </div>
               </motion.div>
