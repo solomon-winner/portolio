@@ -19,7 +19,7 @@ export const Projects = () => {
               >
                 <div className={`order-${index % 2 === 0 ? '1' : '2'}`}>
                 <div 
-                  className="bg-gray-700 h-[15rem] rounded-2xl shadow-2xl bg-cover bg-center"
+                  className="bg-gray-700 h-[10rem] md:h-[15rem] rounded-2xl shadow-2xl bg-cover bg-center"
                   style={{ backgroundImage: project.img ? `url(${project?.img})` : 'none' }}
                 >
                   {!project.img && (
