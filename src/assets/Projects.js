@@ -15,7 +15,7 @@ export const projects = [
       description: 'Developed a platform to manage deforestation data and restoration efforts for the Ethiopian Prime Minister\'s Office. It allows users to track deforested areas, record reforestation progress, and visualize restoration projects on an interactive map. And view the data on the population living there',
       stack: ['React', 'ArcGIS'],
       img:TBRR,
-      link: 'https://ethtbrr.net/'
+      link: 'https://tbrr.echnoserve.com/'
     },
     { 
       title: 'European Union Deforestation Registry',
