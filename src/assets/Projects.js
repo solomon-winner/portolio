@@ -73,13 +73,14 @@ export const projects = [
       stack: ['React', 'Node.js', 'MongoDB'],
       img: YBD,
       link: 'https://dashboard-prototype-xi.vercel.app/'
-    }, {
-      title: 'Ward Holding Africa',
-      role: "UI/UX Designer, Front-end Developer",
-      description: 'Developed a website for Ward Holding Africa, a U.S. based global enterprise dedicated to advancing economic development in emerging markets. The website showcases the company\'s mission, services, and projects, providing a platform for potential clients to learn more about their work.',
-      stack: ['Next.js', 'Tailwind CSS'],
-      img: WHA,
-      link: 'https://whafrica.com.ethtbrr.net'
-    }
+    }, 
+    // {
+    //   title: 'Ward Holding Africa',
+    //   role: "UI/UX Designer, Front-end Developer",
+    //   description: 'Developed a website for Ward Holding Africa, a U.S. based global enterprise dedicated to advancing economic development in emerging markets. The website showcases the company\'s mission, services, and projects, providing a platform for potential clients to learn more about their work.',
+    //   stack: ['Next.js', 'Tailwind CSS'],
+    //   img: WHA,
+    //   link: 'https://whafrica.com.ethtbrr.net'
+    // }
   ];
   
