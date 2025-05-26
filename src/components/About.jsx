@@ -19,7 +19,7 @@ export const About = () => {
             <p className="text-[1rem] font-thin text-gray-300 leading-relaxed">
             I'm a full-stack software developer with a passion for building scalable and efficient web and mobile applications. With expertise in MERN, and Flutter, I have developed diverse projects.
 
-Currently, I work at Echnoserve Consulting, where I contribute to high-impact projects, including a tree-based restoration registry for the Ethiopian Prime Minister's Office and a European Union deforestation registry. Beyond my professional role, I enjoy tackling coding challenges, and continuously improving my skills.
+Currently, I work at Echnoserve Consulting, where I contribute to high-impact projects, Notably , I developed a tree-based restoration registry for the Ethiopian Prime Minister’s Office, which manages data from over 411 institutions and 443 sites and is actively used by government field personnel. I’m also involved in creating a European Union deforestation registry, which handles data for more than 70 exporters and over 1,000 farmers, including detailed GeoJSON information. Beyond my professional role, I enjoy tackling coding challenges, and continuously improving my skills.
 
 I thrive in problem-solving, creating intuitive user experiences, and delivering high-quality software. Always eager to learn, innovate, and take on new challenges.
             </p>
