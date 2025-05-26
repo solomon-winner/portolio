@@ -7,7 +7,7 @@ import {Contacts} from "../components/Contacts.jsx"
 import { Footer } from "../components/Footer.jsx";
 export const Home =() => {
     return(
-        <div className="min-h-screen bg-gray-900 text-gray-100 font-sans">
+        <div className="min-h-screen bg-gray-900 text-gray-100 font-sans overflow-x-hidden">
             <Hero/>
             <About/>
             {/* <Metrics/> */}
